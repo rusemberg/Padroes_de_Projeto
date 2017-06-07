@@ -1,0 +1,12 @@
+public class NomeCompleto extends Nome{
+	
+	public NomeCompleto(String primeiroNome, String segundoNome){
+		this.primeiroNome = primeiroNome;
+		this.segundoNome = segundoNome;
+	}
+	
+	public abstract Nome criarNome(String nome);{
+		NomeCompletoFactory ncf = 
+		return nomePronto;
+	}
+}

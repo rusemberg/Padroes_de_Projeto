@@ -1,0 +1,8 @@
+public class NomeCompletoFactory extends NomeFactory{
+	@Override
+	public String[] NomeFactory(String nome) {
+		String nomes[] = new String[2];
+		nomes = nome.split(" ");
+		return nomes;
+	}
+}

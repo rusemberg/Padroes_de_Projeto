@@ -1,0 +1,6 @@
+public class Nome{
+	protected PrimeiroNome nome;
+	protected SegundoNome sobrenome;
+	
+}
+

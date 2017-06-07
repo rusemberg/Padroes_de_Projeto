@@ -1,0 +1,10 @@
+public class NomeCompletoFactory extends NomeFactory {
+	@Override
+	public Nome criarNome(String nome) {
+		String[] nomes = new String[2];
+		nomes = nome.split(" ");
+		NomeCompleto nomeCompleto = new NomeCompleto(nomes[0], nomes[1]);
+		return nomeCompleto;
+	}
+
+}

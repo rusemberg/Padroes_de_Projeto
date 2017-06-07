@@ -1,0 +1,20 @@
+public class Teste {
+
+	private static Nome montarNome(String nome, String forma){
+		NomeFactory nf = null;
+		if(forma.equals("linear")){
+			nf = new NomeSobrenomeFactory();
+		}
+		else if(forma.equals("invertido")){
+			nf = new SobrenomeNomeFactory();
+		}
+		return null;
+	}
+
+	public static void main(String[] args) {
+		
+				
+		
+	}
+
+}

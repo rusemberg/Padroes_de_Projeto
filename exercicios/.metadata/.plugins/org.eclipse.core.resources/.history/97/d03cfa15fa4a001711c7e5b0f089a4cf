@@ -1,0 +1,15 @@
+public class NomeSobrenome extends Nome{
+	
+	public NomeSobrenome(String primeiroNome, String segundoNome){
+		this.primeiroNome = primeiroNome;
+		this.segundoNome = segundoNome;
+	}
+
+	@Override
+	public Nome criarNome(String nome) {
+		NomeSobrenomeFactory nsf = new NomeSobrenomeFactory();
+		
+		return nsf.criarNome(nome);
+	}
+	
+}

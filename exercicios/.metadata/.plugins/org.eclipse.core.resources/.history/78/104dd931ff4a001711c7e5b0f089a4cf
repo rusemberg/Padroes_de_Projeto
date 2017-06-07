@@ -1,0 +1,8 @@
+public abstract class Nome{
+	protected String nome;
+	protected String sobrenome;
+	
+	public abstract void criarNome(String nome);
+	
+}
+

@@ -1,0 +1,4 @@
+public abstract class Nome {
+	public Nome(){}
+	public abstract void Nome(String nome);
+}

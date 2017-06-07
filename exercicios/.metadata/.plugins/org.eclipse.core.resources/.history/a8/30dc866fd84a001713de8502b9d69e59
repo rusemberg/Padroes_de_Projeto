@@ -1,0 +1,4 @@
+public abstract class Nome {
+	public abstract String fabricandoNome(String nome);
+	
+}

@@ -1,0 +1,5 @@
+public class Nome {
+	protected String peimeiroNome;
+	protected String segundoNome;
+}
+

@@ -1,0 +1,11 @@
+public abstract class Nome{
+	protected String primeiroNome;
+	protected String segundoNome;
+	
+	public abstract Nome criarNome(String nome);
+	
+	public String toString(){
+		return "[Nome] \nPrimeiro nome: "+primeiroNome+"\nSegundo nome: "+segundoNome;
+	}
+}
+

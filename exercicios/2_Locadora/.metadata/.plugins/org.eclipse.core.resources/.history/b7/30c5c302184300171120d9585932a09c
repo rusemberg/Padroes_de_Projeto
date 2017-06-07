@@ -1,0 +1,38 @@
+package locadora;
+
+import java.util.Iterator;
+
+public class Extrato {
+	private String stringResultado = null;
+	
+	public Extrato(Cliente c){
+		super();
+		
+		final String fimDeLinha = System.getProperty("line.separator");
+		double valorTotal = 0.0;
+		int pontosDeAlugadorFrequente = 0;
+		Iterator<Aluguel> alugueis = c.getFitasAlugadas().iterator();
+		String resultado = "Registro de Alugueis de " + c.getNome() + fimDeLinha;
+
+		while (alugueis.hasNext()) {
+			double valorCorrente = 0.0;
+			Aluguel aluguel = (Aluguel) alugueis.next();
+
+			// determina valores para cada linha
+			valorCorrente = this.valorAluguelFita(aluguel);
+
+			// trata de pontos de alugador frequente
+			pontosDeAlugadorFrequente = this.addPontosAlugadorFrequente(pontosDeAlugadorFrequente, aluguel);
+
+			// mostra valores para este aluguel
+			resultado += "\t" + aluguel.getFita().getTítulo() + "\t" + valorCorrente + fimDeLinha;
+			valorTotal += valorCorrente;
+		}
+			// adiciona rodapé
+		resultado += "Valor total devido: " + valorTotal + fimDeLinha;
+		resultado += "Voce acumulou " + pontosDeAlugadorFrequente + " pontos de alugador frequente";
+		this.stringResultado = resultado;
+	
+	}
+
+}

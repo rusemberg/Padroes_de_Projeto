@@ -1,0 +1,16 @@
+
+public class Incremental {
+	private static int count = 0;
+	private int numero;
+	
+	public Incremental(){
+		if(count == 0){
+			numero = ++count;
+		}
+		
+	}
+	
+	public String toString(){
+		return "Incremental "+numero;
+	}
+}

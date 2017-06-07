@@ -1,0 +1,6 @@
+public abstract class NomeFactory {
+	public abstract void NomeFactory (String nome);
+	
+	
+}
+

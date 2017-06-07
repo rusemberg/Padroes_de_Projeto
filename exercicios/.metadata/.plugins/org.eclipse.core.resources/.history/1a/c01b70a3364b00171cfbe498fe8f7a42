@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		NomeFactory nome = null;
+		nome = new NomeSobrenomeFactory();
+	}
+
+}

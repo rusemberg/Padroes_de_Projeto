@@ -1,0 +1,16 @@
+
+public class SobrenomeNomeFactory extends NomeFactory{
+
+	@Override
+	public PrimeiroNome criarPrimeiroNome(String nome) {
+		
+		return null;
+	}
+
+	@Override
+	public SegundoNome criarSegundoNome(String nome) {
+		
+		return null;
+	}
+
+}

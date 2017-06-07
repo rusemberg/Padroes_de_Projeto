@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		String forma, nome;
+		Nome nomeCompleto;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe seu nome e sobrenome: ");
+		nome = teclado.nextLine();
+		System.out.println("Informe a forma que deseja tratar seu nome: ");
+		forma = teclado.nextLine();
+		
+		if (forma.equals("completo")) {
+			nomeCompleto = new NomeCompleto();
+		}else if (forma.equals("dividido")){
+			nomeCompleto = new NomeSobrenome();
+		}
+
+	}
+
+}

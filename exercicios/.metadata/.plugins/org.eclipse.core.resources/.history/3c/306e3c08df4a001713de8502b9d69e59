@@ -1,0 +1,7 @@
+
+public class NomeCompleto extends Nome{
+	@Override
+	public void Nome(String nome) {
+		
+	}
+}

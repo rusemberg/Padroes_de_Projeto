@@ -1,0 +1,11 @@
+package locadora;
+
+public class Extrato {
+	
+	public Extrato(Cliente c){
+		
+		super();
+		
+	}
+
+}

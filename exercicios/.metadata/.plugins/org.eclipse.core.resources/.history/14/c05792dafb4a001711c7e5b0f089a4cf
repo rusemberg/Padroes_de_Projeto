@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+import javax.swing.JOptionPane;
+
+public class Teste {
+
+	public static void main(String[] args) {
+		String forma, nome;
+		Nome nomeCompleto;
+		Scanner teclado = new Scanner(System.in);
+		
+		System.out.println("Informe seu nome e sobrenome: ");
+		nome = teclado.nextLine();
+		System.out.println("Informe a forma que deseja tratar seu nome: ");
+		System.out.println("sem virgula");
+		System.out.println("com virgula");
+		forma = teclado.nextLine();
+		
+		if (forma.equals("completo")) {
+			nomeCompleto = new NomeCompleto();
+		}else if (forma.equals("dividido")){
+			nomeCompleto = new NomeSobrenome();
+		}else{
+			JOptionPane.showMessageDialog(null, "forma de tratar o nome inválido");
+			nomeCompleto = null;
+		}
+		
+		if (nomeCompleto != null){
+			System.out.println(nomeCompleto);
+			System.out.println(nomeCompleto.getClass());
+		}
+		
+	}
+
+}

@@ -1,0 +1,8 @@
+public class NomeCompletoFactory extends NomeFactory{
+	@Override
+	public NomeCompleto criarNome(String nome) {
+		
+		return new NomeCompleto(nome);
+	}
+
+}

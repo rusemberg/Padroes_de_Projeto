@@ -1,0 +1,33 @@
+public class NomeSobreNome extends Nome{
+	private String nome;
+	private String sobreNome;
+	
+	public void Nome(String nome){
+		String nomes[] = new String[2];
+		nomes = nome.split(",");
+		this.nome = nomes[0];
+		this.sobreNome = nomes[1];
+	}
+	
+	public String getNome() {
+		return nome;
+	}
+
+	public void setNome(String nome) {
+		this.nome = nome;
+	}
+
+	public String getSobreNome() {
+		return sobreNome;
+	}
+
+	public void setSobreNome(String sobreNome) {
+		this.sobreNome = sobreNome;
+	}
+
+	@Override
+	public String toString() {
+		return "NomeCompleto [nome=" + nome + ", sobreNome=" + sobreNome + "]";
+	}
+
+}

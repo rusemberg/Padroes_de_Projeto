@@ -1,0 +1,20 @@
+public class NomeSobrenome extends Nome {
+	public NomeSobrenome() {
+	};
+
+	public NomeSobrenome(String primeiroNome, String segundoNome) {
+		this.primeiroNome = primeiroNome;
+		this.segundoNome = segundoNome;
+	}
+
+	@Override
+	public void criarNome(String nome) {
+		NomeSobrenomeFactory nsf = new NomeSobrenomeFactory();
+		return nsf.criarNome(nome);
+	}
+
+	public String toString() {
+		return "[Nome] \nPrimeiro nome: " + primeiroNome + "\nSegundo nome: " + segundoNome;
+	}
+
+}

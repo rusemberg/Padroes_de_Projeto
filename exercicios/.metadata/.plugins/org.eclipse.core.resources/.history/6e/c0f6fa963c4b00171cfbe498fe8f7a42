@@ -1,0 +1,15 @@
+public class Teste {
+
+	private static Nome montarNome(String nome){
+		NomeFactory nf = null;
+		
+		return null;
+	}
+
+	public static void main(String[] args) {
+		
+				
+		
+	}
+
+}

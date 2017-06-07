@@ -1,0 +1,7 @@
+public class PrimeiroNome {
+	private String primeiroNome;
+	
+	public PrimeiroNome(String nome){
+		this.primeiroNome = nome;
+	}
+}

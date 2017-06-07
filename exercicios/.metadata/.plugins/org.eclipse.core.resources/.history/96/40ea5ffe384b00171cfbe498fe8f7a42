@@ -1,0 +1,6 @@
+public class Nome{
+	private PrimeiroNome nome;
+	private SegundoNome sobrenome;
+	
+}
+

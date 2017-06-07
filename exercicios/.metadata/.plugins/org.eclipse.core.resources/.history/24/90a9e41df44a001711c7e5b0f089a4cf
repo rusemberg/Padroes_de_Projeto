@@ -1,0 +1,31 @@
+public class NomeSobrenome{
+	private String primeiroNome;
+	private String segundoNome;
+	
+	public NomeSobrenome(String nome, String sobreNome){
+		this.primeiroNome = nome;
+		this.segundoNome = sobreNome;
+	}
+
+	public String getPrimeiroNome() {
+		return primeiroNome;
+	}
+
+	public void setPrimeiroNome(String primeiroNome) {
+		this.primeiroNome = primeiroNome;
+	}
+
+	public String getSegundoNome() {
+		return segundoNome;
+	}
+
+	public void setSegundoNome(String segundoNome) {
+		this.segundoNome = segundoNome;
+	}
+
+	@Override
+	public String toString() {
+		return "NomeSobrenome [primeiroNome=" + primeiroNome + ", segundoNome=" + segundoNome + "]";
+	}
+	
+}

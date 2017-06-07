@@ -1,0 +1,4 @@
+abstract class Nome {
+	public abstract Nome();
+		
+}

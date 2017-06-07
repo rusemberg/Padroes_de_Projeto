@@ -1,0 +1,8 @@
+public class NomeCompleto{
+	private String nome;
+	
+	public NomeCompleto(String nome){
+		this.nome = nome;
+	}
+	
+}

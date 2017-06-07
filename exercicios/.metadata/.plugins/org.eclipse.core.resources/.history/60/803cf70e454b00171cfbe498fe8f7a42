@@ -1,0 +1,30 @@
+
+public class Incremental {
+	private static int count = 0;
+	private static Incremental incremental;
+	private static int numero;
+	
+	//PRIMEIRA FORMA
+	//private static Incremental incremental = new Incremental();
+//	public static Incremental getInstance(){
+//		return incremental;
+//	}
+	
+	//SEGUNDA FORMA
+	public static Incremental getInstance(){
+		if(count == 0){
+			numero = ++count;
+			incremental = new Incremental();
+			return incremental;
+		}
+		else{
+			return incremental;
+		}
+	}
+	
+	
+	
+	public String toString(){
+		return "Incremental "+numero;
+	}
+}

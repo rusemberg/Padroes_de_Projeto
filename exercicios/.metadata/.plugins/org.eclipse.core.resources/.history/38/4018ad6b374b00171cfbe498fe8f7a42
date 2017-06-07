@@ -1,0 +1,14 @@
+
+public class NomeSobrenomeFactory extends NomeFactory{
+	public NomeSobrenomeFactory(){}
+	@Override
+	public Sobrenome criarNome(String nome) {
+		return new NomeSobrenome(nome);
+	}
+	@Override
+	public S criarSobreNome(String nome) {
+		
+		return null;
+	}
+
+}

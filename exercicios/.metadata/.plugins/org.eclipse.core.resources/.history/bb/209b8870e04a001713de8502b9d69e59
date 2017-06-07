@@ -1,0 +1,6 @@
+
+public class NomeCompletoFactory extends NomeFactory{
+	rn nomeCompleto;
+	}
+
+}

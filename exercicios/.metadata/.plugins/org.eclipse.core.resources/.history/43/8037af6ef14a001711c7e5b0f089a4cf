@@ -1,0 +1,9 @@
+public class NomeSobrenome{
+	private String primeiroNome;
+	private String segundoNome;
+	
+	public NomeSobrenome(String nome, String sobreNome){
+		this.primeiroNome = nome;
+		this.segundoNome = sobreNome;
+	}
+}

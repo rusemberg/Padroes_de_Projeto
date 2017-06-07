@@ -1,0 +1,6 @@
+
+public class NomeSobrenome extends Nome{
+	public NomeSobrenome(String nome){
+		
+	}
+}

@@ -1,0 +1,17 @@
+public class NomeCompleto extends Nome{
+	
+	public NomeCompleto () {};
+	public NomeCompleto(String primeiroNome, String segundoNome){
+		this.primeiroNome = primeiroNome;
+		this.segundoNome = segundoNome;
+	}
+
+	@Override
+	public Nome criarNome(String nome) {
+		NomeCompletoFactory ncf = new NomeCompletoFactory();
+		return ncf.criarNome(nome);
+	}
+	
+	
+	
+}

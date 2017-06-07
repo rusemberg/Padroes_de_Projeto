@@ -1,0 +1,7 @@
+public class NomeCompleto extends Nome{
+	
+	public NomeCompleto(String primeiroNome, String segundoNome){
+		
+	}
+	
+}

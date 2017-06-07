@@ -1,0 +1,6 @@
+public abstract class Nome {
+	protected String nome;
+	protected String sobreNome;
+	public abstract void Nome(String nome);
+	
+}

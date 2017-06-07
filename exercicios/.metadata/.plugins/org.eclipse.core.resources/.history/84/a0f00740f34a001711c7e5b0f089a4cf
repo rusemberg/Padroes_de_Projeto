@@ -1,0 +1,10 @@
+import java.util.ArrayList;
+
+public class NomeCompletoFactory extends NomeFactory{
+	@Override
+	public Nome criarNome(String nome) {
+		
+		return new NomeCompleto();
+	}
+
+}

@@ -1,0 +1,8 @@
+public class NomeSobrenome extends Nome{
+	
+	public NomeSobrenome(String primeiroNome, String segundoNome){
+		this.primeiroNome = primeiroNome;
+		this.segundoNome = segundoNome;
+	}
+	
+}

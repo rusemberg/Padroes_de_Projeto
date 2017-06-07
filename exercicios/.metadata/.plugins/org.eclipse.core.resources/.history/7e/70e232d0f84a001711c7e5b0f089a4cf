@@ -1,0 +1,10 @@
+public abstract class Nome{
+	protected String primeiroNome;
+	protected String segundoNome;
+	
+	public Nome criarNome(String nome){
+		NomeCompletoFactory ncf = 
+		return nomePronto;
+	}
+}
+

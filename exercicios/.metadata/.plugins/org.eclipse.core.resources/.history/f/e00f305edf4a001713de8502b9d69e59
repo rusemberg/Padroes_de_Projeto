@@ -1,0 +1,8 @@
+
+public class NomeCompletoFactory extends NomeFactory{
+	public Nome criarNome(String nome) {
+		
+		return null;
+	}
+
+}

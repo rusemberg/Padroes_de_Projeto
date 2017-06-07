@@ -1,0 +1,10 @@
+
+public class TesteIncremental {
+	public static void Main(String[] args){
+		for(int i = 0; i < 10; i++){
+			Incremental inc = new Incremental();
+			System.out.println(inc);
+		}
+	}
+
+}

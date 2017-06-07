@@ -1,0 +1,6 @@
+import java.lang.reflect.Array;
+
+public interface NomeFactory {
+	public abstract Nome criarNome (String nome);
+}
+

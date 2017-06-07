@@ -1,0 +1,12 @@
+public class SegundoNome {
+	private String segundoNome;
+	
+	public SegundoNome(String sobrenome){
+		this.segundoNome = sobrenome;
+	}
+
+	@Override
+	public String toString() {
+		return "SegundoNome [segundoNome=" + segundoNome + "]";
+	}
+}

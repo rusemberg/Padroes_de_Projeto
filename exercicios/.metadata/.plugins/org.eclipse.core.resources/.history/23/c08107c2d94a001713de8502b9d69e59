@@ -1,0 +1,9 @@
+
+public class NomeSobreNome {
+	private String nome;
+	private String sobreNome;
+	
+	
+	
+
+}

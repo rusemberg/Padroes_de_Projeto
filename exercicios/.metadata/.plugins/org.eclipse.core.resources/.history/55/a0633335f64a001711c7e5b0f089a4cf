@@ -1,0 +1,8 @@
+
+public class NomeSobrenomeFactory extends NomeFactory{
+	public Nome criarNome(String nome) {
+		
+		return null;
+	}
+
+}

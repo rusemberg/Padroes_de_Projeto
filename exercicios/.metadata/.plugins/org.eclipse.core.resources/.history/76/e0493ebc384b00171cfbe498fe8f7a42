@@ -1,0 +1,9 @@
+
+public class NomeSobrenome extends Nome{
+	public NomeSobrenome(String nome){
+		String[] nomes = new String[2];
+		nomes = nome.split(" ");
+		this.nome = nomes[0];
+		this.sobrenome = nomes[1];
+	}
+}

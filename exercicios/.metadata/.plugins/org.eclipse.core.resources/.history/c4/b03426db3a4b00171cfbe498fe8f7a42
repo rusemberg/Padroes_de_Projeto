@@ -1,0 +1,25 @@
+
+public class SobrenomeNomeFactory extends NomeFactory{
+	private String primeiroNome;
+	private String segundoNome;
+	
+	public void dividirNome(String nome){
+		String[] nomes = new String[2];
+		nomes = nome.split(" ");
+		this.primeiroNome = nomes[0];
+		this.segundoNome = nomes[1];
+	}
+	
+	@Override
+	public PrimeiroNome criarPrimeiroNome(String nome) {
+		
+		return null;
+	}
+
+	@Override
+	public SegundoNome criarSegundoNome(String nome) {
+		
+		return null;
+	}
+
+}

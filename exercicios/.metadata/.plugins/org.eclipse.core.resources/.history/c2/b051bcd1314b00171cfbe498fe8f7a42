@@ -1,0 +1,9 @@
+
+public class NomeSobrenomeFactory extends NomeFactory{
+	public Nome criarNome(String nome) {
+		String[] nomes = new String[2];
+		nomes = nome.split(",");
+		return new NomeSobrenome(nomes[0], nomes[1]);
+	}
+
+}

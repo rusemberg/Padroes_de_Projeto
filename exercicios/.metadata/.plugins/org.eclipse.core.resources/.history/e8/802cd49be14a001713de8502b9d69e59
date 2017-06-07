@@ -1,0 +1,4 @@
+public class Nome {
+	private NomeCompleto nomeCompleto;
+	private NomeSobrenome sobreNome;
+}
